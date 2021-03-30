@@ -2,7 +2,16 @@
   <div class="row">
     <div class="col-md-12">
       <card card-body-classes="table-full-width">
-        <h4 slot="header" class="card-title">Members Management</h4>
+        <div class="col-md-12 d-flex" >
+          <div class="col-md-8">
+            <h4 slot="header" class="card-title">Members Management</h4>
+          </div>
+          <div class="col-md-4">
+            <NuxtLink to="/user">
+              <base-button  simple type="info" size="sm" class="btn pull-right">Add Member</base-button>
+            </NuxtLink>
+          </div>
+        </div>
         <el-table :data="tableData">
           <el-table-column
             min-width="150"
