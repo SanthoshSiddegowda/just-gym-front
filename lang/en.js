@@ -36,6 +36,8 @@ module.exports = {
     "vectorMaps": "Vector Maps",
     "widgets": "Widgets",
     "charts": "Charts",
-    "calendar": "Calendar"
+    "calendar": "Calendar",
+    "members": "Members",
+    "staffs": "Staffs"
   }
 }
