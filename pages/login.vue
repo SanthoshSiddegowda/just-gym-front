@@ -4,9 +4,7 @@
         <form>
           <h1>Sign Up</h1>
           <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
             <a href="#" class="social"><i class="fab fa-google"></i></a>
-            <a href="#" class="social"><i class="fab fa-tiktok"></i></a>
           </div>
           <span>or use your email for registration</span>
           <input type="text" placeholder="Name" />
@@ -19,9 +17,7 @@
         <form>
           <h1>Sign In</h1>
           <div class="social-container">
-            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
             <a href="#" class="social"><i class="fab fa-google"></i></a>
-            <a href="#" class="social"><i class="fab fa-tiktok"></i></a>
           </div>
           <span>or use your account</span>
           <input type="email" placeholder="Email" />
@@ -195,14 +191,14 @@ input {
   position: relative;
   overflow: hidden;
   height: 768px;
-  width: 480px;
+  width: 90vw;
   max-width: 100%;
 }
 
 .form-container {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 90%;
   transition: all 0.6s ease-in-out;
 }
 
