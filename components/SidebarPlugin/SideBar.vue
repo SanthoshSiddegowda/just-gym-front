@@ -3,9 +3,9 @@
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-          <img :src="logo" alt="app-logo" />
+          <!-- <img :src="logo" alt="app-logo" /> -->
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="https://www.justexplore.in" class="simple-text">
           {{ title }}
         </a>
       </div>
